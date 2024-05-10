@@ -1,0 +1,64 @@
+.specialities-container {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #222;
+}
+
+.specialities-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #cac9c9;
+}
+
+.specialities-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #cac9c9;
+}
+
+.specialities-divider {
+  width: 50%;
+  border: 1px solid #cac9c9;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.63);
+}
+
+@media (max-width: 480px) {
+  .specialities-title {
+    font-size: 24px; 
+  }
+
+  .specialities-text {
+    font-size: 14px;
+  }
+
+  .specialities-divider {
+    width: 70%; 
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .specialities-title {
+    font-size: 28px; 
+  }
+
+  .specialities-text {
+    font-size: 15px; 
+  }
+
+  .specialities-divider {
+    width: 60%; 
+  }
+}
+
+@media (min-width: 769px) {
+  .specialities-title {
+    font-size: 32px;
+  }
+
+  .specialities-divider {
+    width: 50%; 
+  }
+}

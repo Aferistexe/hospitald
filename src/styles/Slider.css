@@ -1,0 +1,51 @@
+.slider-wrapper {
+  background-color: #222; 
+}
+
+.slide img {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  list-style: none; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-dot {
+  width: 5px; 
+  height: 5px;
+  border-radius: 50%; 
+  background-color: #333; 
+  margin: 0 5px; 
+  cursor: pointer;
+}
+
+.slick-active .custom-dot {
+  background-color: #fff; 
+}
+
+@media (max-width: 767px) {
+  .slide img {
+    height: 300px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slide img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .slide img {
+    height: 600px; 
+  }
+}

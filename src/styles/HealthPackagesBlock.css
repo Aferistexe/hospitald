@@ -1,0 +1,123 @@
+.health-packages-container {
+  background-color: #222;
+  padding: 20px;
+}
+.booking-and-price {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start; 
+}
+
+.icon-Health.blue {
+  color: #007bff;
+}
+
+
+.block-title {
+  font-size: 30px;
+  text-align: center;
+  color: #cac9c9;
+}
+
+.divider-line{
+  margin: 0;
+  border: 1px solid #c9c9c9;
+  margin-top: 20px;
+}
+
+.packages-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.unity-title {
+  margin-left: 20px;
+}
+
+.package {
+  background-color: #e7e6e6;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.63);
+  margin-bottom: 10px;
+  width: calc(25% - 20px); 
+  height: calc(25% - 20px); 
+}
+
+@media (max-width: 767px) {
+  .package {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .package {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .package:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1025px) {
+  .package {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+  }
+
+  .package:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+  
+.bron-btn {
+  margin-left: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.bron-btn:hover {
+  background-color: #0056b3;
+}
+
+.read-a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.package h3 {
+  font-size: 27.5px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.package ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.package ul li {
+  margin-left: 20px;
+  padding-bottom: 12px;
+  margin-bottom: 5px;
+}
+
+.price-container {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.price {
+  padding-left: 12.5px;
+  font-weight: bold;
+  font-size: 16px;
+}

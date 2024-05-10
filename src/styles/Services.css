@@ -1,0 +1,89 @@
+.yes-serv {
+  background-color: #222;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services-intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-description {
+  margin-bottom: 100px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+
+.service {
+  background-color: #272727;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.63);
+  position: relative;
+}
+
+.service img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.service p {
+  color: #cac9c9;
+}
+
+.service-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px; 
+}
+
+.price-ser, .buy-button {
+  position: absolute; 
+  bottom: 10px; 
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.price-ser {
+  left: 10px; 
+}
+
+.buy-button {
+  right: 10px; 
+  background-color: #0056b3; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.buy-button:hover {
+  background-color: #004a9f; 
+}
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 767px) {
+  .services-grid {
+    grid-template-columns: 1fr; 
+  }
+}
